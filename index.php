@@ -148,6 +148,7 @@ Dados excluidos com sucesso!
 
             <a href="" data-ls-module="modal" class="ls-tooltip-bottom" aria-label="Excluir" 
             data-action="processa_horas.php?excluir=<?php echo $id ?>" 
+            
             data-content="<h2> Deseja mesmo excluir está informação ? </h2> <br><p> Aviso , 
             está ação não pode ser revertida , ao clicar em aceitar os respectivos dados serão apagados permanentemente 
             da sua base de dados. </p>" data-title="Excluir" data-class="ls-btn-danger" data-save="Sim"
@@ -183,7 +184,7 @@ Dados excluidos com sucesso!
                     $soma = $linha['total']; 
                 }
 
-            $restante = 200 - $soma;
+            $restante = 248 - $soma;
         ?>
         
         <!-- card 2 -->
