@@ -139,7 +139,7 @@ Dados excluidos com sucesso!
             $horas = $linha['horas']; ?>
 
         <tr><td style="color:green;" class="ls-txt-center"  width="350px;"> <?php echo $linha['Descricao'];?></td>
-        <td class="ls-txt-center"> <a href="<?php echo $linha['Link_certificado'];?>"> <span> Gerar PDF</span> </a></td>
+        <td class="ls-txt-center"> <a href="<?php echo $linha['Link_certificado'];?>" target="_blank"> <span> Gerar PDF</span> </a></td>
         <td class="ls-txt-center" width="120px;"> <?php echo $linha['horas'];?></td>
 
         <td class="ls-txt-center">  
